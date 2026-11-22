@@ -44,5 +44,30 @@ app.*.map.json
 /android/app/profile
 /android/app/release
 
+
 # Widget Preview related
 .widget_preview/
+
+# ==========================================
+# Python / Django
+# ==========================================
+
+# Ambientes virtuais Python
+**/.venv/
+
+# Variáveis de ambiente
+.env
+.env.*
+!.env.example
+
+# Banco de dados SQLite local
+db.sqlite3
+
+# Arquivos compilados e caches Python
+__pycache__/
+*.py[cod]
+
+# Arquivos temporários de testes
+.pytest_cache/
+.coverage
+htmlcov/
